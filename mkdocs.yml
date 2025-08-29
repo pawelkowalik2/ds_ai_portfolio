@@ -1,6 +1,9 @@
 site_name: Portfolio
 site_title: Menu
 
+repo_name: pawelkowalik2/ds_ai_portfolio
+repo_url: https://github.com/pawelkowalik2/ds_ai_portfolio
+
 theme:
   name: material
   palette:
