@@ -1,0 +1,11 @@
+/* 1) Repo niewidoczne, ale zajmuje miejsce */
+.md-header__source,
+.md-source {
+  visibility: hidden !important;
+  pointer-events: none !important; /* na wszelki wypadek */
+}
+
+/* 2) Upewnij się, że repo jest przed wyszukiwarką */
+.md-header__source { order: 1 !important; }
+.md-header__option { order: 2 !important; }
+.md-search         { order: 3 !important; }
