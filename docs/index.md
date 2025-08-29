@@ -19,4 +19,4 @@ I am continuously learning and expanding my skills to deepen my understanding of
  <img src="./assets/github-dark.svg#only-dark" width="24" style="vertical-align:top; margin-right:8px;">
  GitHub](https://github.com/pawelkowalik2)
 
-[<img src="assets/linkedin.svg" width="24" style="vertical-align:top; margin-right:8px;"> LinkedIn](https://www.linkedin.com/in/paweł-kowalik-5816b5166/)
+[<img src="./assets/linkedin.svg" width="24" style="vertical-align:top; margin-right:8px;"> LinkedIn](https://www.linkedin.com/in/paweł-kowalik-5816b5166/)

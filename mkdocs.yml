@@ -49,3 +49,6 @@ nav:
   - "Runner": marathon/index.md
   - "Alike": alike/index.md
   # - "Chat": chat/index.md
+
+extra_css:
+  - css/custom.css
