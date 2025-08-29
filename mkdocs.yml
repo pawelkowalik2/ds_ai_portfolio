@@ -1,0 +1,48 @@
+site_name: Portfolio
+site_title: Menu
+
+theme:
+  name: material
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: light green
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  # features:
+  #   - navigation.footer
+  
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/pawelkowalik2
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/paweł-kowalik-5816b5166/
+      name: LinkedIn
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+- Home: index.md
+- Latest project: 
+  - "Essenza": essenza/index.md
+- Previous projects:
+  - "Runner": marathon/index.md
+  - "Alike": alike/index.md
+  # - "Chat": chat/index.md
